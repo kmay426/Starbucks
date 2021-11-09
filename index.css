@@ -2,80 +2,186 @@ body {
  font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 };
 
+  /*p Your faves are back */
+  #faves {
+    /* color: #ffffff; */
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-align: center;
+    line-height: 1.2;
+    padding: 50px;
+  }
+  /* p Come celebrate the season... */
+  #celebrate {
+    /* color: #ffffff; */
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    max-width: 70%;
+  }
+  /* holiday drinks image */
+  .holiday_drinks {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+  /* div for holiday favorites are back */
+  #firstBlock {
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+  /* Find your favorite */
+  .findFavorite {
+    background-color: #d50032;
+    color: white;
+    font-size: 16px;
+    padding: 7px 16px;
+    border-radius: 50px;
+    border-color: white;
+    min-width: 35px;
+    min-height: 35px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin-right: 1.6rem;
+    letter-spacing: -.01em;
+    margin-top: 3.2rem;
+    }
 
-#grow {
-  size: 25px;
-  padding: 24px 0px 0px;
-}
+    /* Second red block */
+    #secondBlock {
+      margin-bottom: 25px;
+    }
+    /* New to the nice list */
+    #secondBlockHeader {
+      font-size: 50px;
+      line-height: 1.2;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 8px;
+      color: white;
+      max-width: 75%;
+    }
 
-span {
-  text-decoration: underline;
-}
+    /* For a nondairy twist...*/
+    #nondairy {
+      font-size: 24px;
+      font-weight: 400px;
+      text-align: center;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: -.01em;
+      max-width: 70%;
+    }
+
+    /* Sugar Cookie Latte image */
+    .sugar_cookie_latte {
+      vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    }
+
+    /* New to nice list order now button */
+    .orderNowBtn {
+      background-color: #d50032;
+      color: white;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 50px;
+      border-color: white;
+      padding: 7px 16px;
+      font-weight: 600;
+      line-height: 1.2;
+      text-align: center;
+      margin-top: 3.2rem;
+      font-size: 1.6rem;
+    }
+
+/* Coffee Joy header */
+    #thirdBlockHeader {
+      font-size: 50px;
+      color: white;
+      font-weight: 600;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: 8px;
+    }
+
+    /* Ring in the season...*/
+    #ring {
+      font-weight: 400px;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      line-height: 1.5;
+      letter-spacing: -.01em;
+      max-width: 70%;
+    }
+
+    #thirdBlock {
+      margin-bottom: 25px;
+    }
+
+    .christmas_blend_coffee {
+      vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    }
 
 
 #info {
   font-size: 16px;
 }
 
-#growHeading {
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  padding-bottom: 18px;
-}
-
-#firstBlock {
-  margin-bottom: 25px
-}
-
-#growing {
-  padding: 24px 0px;
-  text-align: center;
-  font-size: 19px;
-  font-weight: 400;
-  margin-bottom: 25px;
-
-}
-
-#fifty {
+#jingleHeading {
   font-size: 50px;
   font-weight: 600;
+  text-align: center; 
+  color: white; 
+  letter-spacing: 8px;
+  padding: 20px;
+}
+
+#jingleDescription {
+  font-size: 24px;
+  text-align: center;
+  padding: 30px;
   
 }
 
-#secondBlock {
-  margin-bottom: 25px;
-}
 
-#thirdBlock {
-  margin-bottom: 25px;
-}
 
-#secondBlockHeader {
-  font-size: 24px;
-}
-
-#thirdBlockHeader {
-  font-size: 24px;
-  color: #1e3932;
-  font-weight: 600;
-}
-
-#join {
-  font-size: 19px;
-  font-weight: 400px;
-  color: #1e3932;
-}
-
-#happening {
-  font-size: 19px;
-  font-weight: 400px;
-}
-
-#history {
-  font-size: 24px;
+#jingle {
+  /* padding: 24px 0px;
   text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  */
+  margin-bottom: 25px;
+  color: white;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #collapsibleNavbar {
   font-size: 14px;
@@ -87,14 +193,18 @@ span {
   color: black;
 }
 
-#tricks {
-  font-size: 50px;
-  color: #1e3932;
+#honoring {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  text-align: center;
 }
 
-#spirit {
-  font-size: 24px;
-  color: #1e3932;
+#heritage {
+  font-size: 19px;
+  line-height: 1.75;
+  text-align: center;
+letter-spacing: -.01em;
 }
 
 #fourthBlock {
@@ -107,10 +217,6 @@ span {
   color: #1e3932;
 }
 
-#apple {
-  font-size: 24px;
-  color: #1e3932;
-}
 
 #fifthBlock {
   margin-bottom: 25px;
@@ -120,24 +226,29 @@ span {
   color: #1e3932;
   font-size: 24px;
   font-weight: 600;
+  text-align: center;
 }
 
 .visa {
   color: #1e3932;
   font-size: 19px;
   font-weight: 400;
+  line-height: 1.75;
+}
+
+
+.holidayCheer {
+  color: #1e3932;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .payPickUp {
   color: #1e3932;
   font-size: 19px;
   font-weight: 400;
-}
-
-.fall {
-  color: #1e3932;
-  font-size: 24px;
-  font-weight: 600;
+  line-height: 1.75;
 }
 
 .navButton1 {
@@ -173,37 +284,9 @@ text-align: center;
 letter-spacing: -.01em;
 }
 
-.exploreBtn {
-background-color: #d8e8e3;
-color: rgba(0,0,0,.87);
-font-size: 1.4rem;
-padding: 7px 16px;
-border-radius: 50px;
-min-width: 35px;
-min-height: 35px;
-border-width: 1px;
-border-style: solid;
-font-weight: 600;
-line-height: 1.2;
-text-align: center;
-margin-right: 1.6rem;
-letter-spacing: -.01em;
-margin-top: 3.2rem;
-}
 
-.storiesBtn {
-  background-color: #1E3932;
-  color: white;
-  font-size: 1.4rem;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
-  padding: 7px 16px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-align: center;
-  margin-top: 3.2rem;
-}
+
+
 
 .joinBtn {
   background-color: #f1f8f6;
@@ -274,7 +357,7 @@ margin-top: 3.2rem;
   font-size: 1.6rem;
 }
 
-#lastBlock {
+#leftBlock {
   margin-bottom: 50px;
 }
 
